@@ -1292,7 +1292,7 @@ figcaption{
     /* ///////////////////////////////////////////////////  Main Section  */
 
     .hero-section{
-        height: 50vh;
+        height: 40vh;
         width: 100%;
         margin: 0;
     }
@@ -1564,7 +1564,7 @@ figcaption{
     /* ///////////////////////////////////////////////////  Main Section  */
 
     .hero-section{
-        height: 45vh;
+        height: 30vh;
         width: 100%;
         margin: 0;
     }
@@ -1851,11 +1851,7 @@ figcaption{
     /* ///////////////////////////////////////////////////  Main Section  */
 
     .hero-section{
-        height: 45vh;
-        background-image: linear-gradient(rgba(11, 49, 66, 0.7), rgba(31, 52, 57, 0.7)), url(images/bg-image-3.webp);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        height: 30vh;
         width: 100%;
         margin: 0;
     }
@@ -1954,7 +1950,13 @@ figcaption{
 
 
 
-
+echo "# Assignment-Website" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ShaikhMuhammadSami/Assignment-Website.git
+git push -u origin main
 
 
 
